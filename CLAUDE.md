@@ -7,6 +7,7 @@ An Astro Starlight documentation site teaching developers how to use AI coding a
 - **Framework**: Astro Starlight (Astro v6, Starlight v0.38.1)
 - **Package manager**: npm
 - **TypeScript**: Strict mode
+- **Diagrams**: `astro-mermaid` + `mermaid` (client-side rendering with theme support)
 - **Deployment**: GitLab Pages via `.gitlab-ci.yml`
 
 ## Commands
@@ -41,6 +42,11 @@ An Astro Starlight documentation site teaching developers how to use AI coding a
 ## Terminology
 
 Use "AI coding agent" (not "AI assistant" or "copilot"), "terminal-based agent" (not "local agent" or "CLI agent"), "cloud-based agent" (not "hosted agent" or "remote agent"). Full glossary in spec Section 13.1.
+
+## Integration Notes
+
+- `astro-mermaid` must be **first** in the `integrations` array (before Starlight) so its script injection runs before Starlight processes content
+- `.npmrc` sets `legacy-peer-deps=true` — needed because `astro-mermaid` declares `astro: ^4 || ^5` peer dep but we use Astro 6 (temporary, until upstream adds Astro 6 support)
 
 ## Known Build Warnings
 
