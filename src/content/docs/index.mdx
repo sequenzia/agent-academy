@@ -1,0 +1,61 @@
+---
+title: Agent Academy
+description: A free, eight-module curriculum that teaches developers how to work effectively with AI coding agents — from fundamentals through advanced workflows.
+template: splash
+hero:
+  tagline: Master AI coding agents — from fundamentals through advanced workflows.
+  actions:
+    - text: Start learning
+      link: /01-introduction/overview/
+      icon: right-arrow
+    - text: View on GitHub
+      link: https://github.com/sequenzia/agent-academy
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## What is Agent Academy?
+
+Agent Academy is a free, structured curriculum that teaches developers how to work effectively with AI coding agents like OpenCode and Codex. Instead of scattered blog posts and tool docs, you get a clear learning path across eight modules — from understanding what agents are, through prompt engineering, context engineering, and agent skills, all the way to MCP servers, subagent delegation, and security hardening.
+
+<CardGrid>
+	<Card title="Structured path" icon="open-book">
+		Eight progressive modules that build on each other, so you learn in the right order.
+	</Card>
+	<Card title="Hands-on exercises" icon="laptop">
+		Every module includes practical exercises you complete in your own projects.
+	</Card>
+	<Card title="Tool-agnostic concepts" icon="puzzle">
+		Core ideas apply broadly, with specific guidance for OpenCode and Codex.
+	</Card>
+	<Card title="Open source" icon="github">
+		All content is open source. Read it online, suggest improvements, or contribute.
+	</Card>
+</CardGrid>
+
+## Who is this for?
+
+**New to AI coding agents?** Start at Module 1 to understand what agents are, how they work, and when to use them. By Module 2, you will have a working agent setup ready for real tasks.
+
+**Already using agents casually?** Jump to the module that fills your gaps. Most developers benefit from Modules 3-5 on prompt engineering, context engineering, and agent skills — the techniques that turn inconsistent results into reliable workflows.
+
+## Modules
+
+<LinkCard title="Module 1: Introduction to AI coding agents" description="What AI coding agents are, how they work, and how they differ from chat assistants and autocomplete tools." href="/01-introduction/overview/" />
+<LinkCard title="Module 2: Setting up your agent environment" description="Get OpenCode and Codex installed, configured, and verified so you can start working with agents." href="/02-setup/overview/" />
+<LinkCard title="Module 3: Prompt engineering for coding agents" description="Communicate effectively with agents through structured prompts that produce predictable, high-quality results." href="/03-prompt-engineering/overview/" />
+<LinkCard title="Module 4: Context engineering" description="Provide project-level context so your agent produces code that matches your standards without repeated instructions." href="/04-context-engineering/overview/" />
+<LinkCard title="Module 5: Agent skills" description="Use and create reusable skill modules that extend your agent's capabilities and reduce repetitive instruction." href="/05-agent-skills/overview/" />
+<LinkCard title="Module 6: MCP servers" description="Connect your agent to external tools, services, and data sources via the Model Context Protocol." href="/06-mcp-servers/overview/" />
+<LinkCard title="Module 7: Subagents and task delegation" description="Delegate complex work to subagents and learn when delegation helps versus when it adds unnecessary complexity." href="/07-subagents/overview/" />
+<LinkCard title="Module 8: Security, guardrails, and safe automation" description="Identify and mitigate the security risks of AI coding agents to protect your codebase and credentials." href="/08-security/overview/" />
+
+## Where to start
+
+:::tip[Recommended starting point]
+**Module 1: Introduction** is the best place to begin. It takes about 30 minutes and gives you the mental model you need for everything that follows. From there, Module 2 walks you through setting up your agent environment step by step.
+:::
+
+If you already have an agent installed and want to improve your results, skip ahead to **[Module 3: Prompt engineering](/03-prompt-engineering/overview/)** — it covers the techniques that make the biggest difference in day-to-day agent use.
