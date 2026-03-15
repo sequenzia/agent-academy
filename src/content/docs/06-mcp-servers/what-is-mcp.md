@@ -131,10 +131,6 @@ sequenceDiagram
     C->>S: tools/call (create_issue)
     S-->>C: Result
     C-->>A: Issue created
-
-    classDef primary fill:#dbeafe,stroke:#2563eb,color:#000
-    classDef secondary fill:#f3e8ff,stroke:#7c3aed,color:#000
-    classDef neutral fill:#f3f4f6,stroke:#6b7280,color:#000
 ```
 
 *Sequence diagram showing MCP communication: the agent discovers available tools during initialization, then calls tools as needed during its workflow. Each tool call is a request-response cycle through the MCP client.*
