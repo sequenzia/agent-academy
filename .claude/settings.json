@@ -7,8 +7,6 @@
     "context7"
   ],
   "enabledPlugins": {
-    "plugin-dev@claude-plugins-official": true,
-    "hookify@claude-plugins-official": true,
-    "skill-creator@claude-plugins-official": true
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true
   }
 }
