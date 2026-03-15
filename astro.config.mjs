@@ -11,6 +11,7 @@ export default defineConfig({
 		}),
 		starlight({
 			title: 'Agent Academy',
+			customCss: ['./src/styles/custom.css'],
 			description:
 				'A structured learning resource for developers working with AI coding agents. Master prompt engineering, context engineering, agent skills, MCP servers, and more.',
 			social: [
