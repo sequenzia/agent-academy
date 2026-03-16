@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mermaid from 'astro-mermaid';
+import { repo } from './src/config/repo.ts';
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,13 +13,17 @@ export default defineConfig({
 		starlight({
 			title: 'Agent Academy',
 			customCss: ['./src/styles/custom.css'],
+			components: {
+				Hero: './src/components/Hero.astro',
+				SocialIcons: './src/components/SocialIcons.astro',
+			},
 			description:
 				'A structured learning resource for developers working with AI coding agents. Master prompt engineering, context engineering, agent skills, MCP servers, and more.',
 			social: [
 				{
-					icon: 'github',
-					label: 'GitHub',
-					href: 'https://github.com/sequenzia/agent-academy',
+					icon: repo.icon,
+					label: repo.label,
+					href: repo.url,
 				},
 			],
 			sidebar: [

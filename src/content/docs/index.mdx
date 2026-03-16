@@ -12,13 +12,10 @@ hero:
     - text: Start learning
       link: /01-introduction/overview/
       icon: right-arrow
-    - text: View on GitHub
-      link: https://github.com/sequenzia/agent-academy
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { repo } from '../../config/repo';
 
 ## What is Agent Academy?
 
@@ -34,7 +31,7 @@ Agent Academy is a free, structured curriculum that teaches developers how to wo
 	<Card title="Tool-agnostic concepts" icon="puzzle">
 		Core ideas apply broadly, with specific guidance for OpenCode and Codex.
 	</Card>
-	<Card title="Open source" icon="github">
+	<Card title="Open source" icon={repo.icon}>
 		All content is open source. Read it online, suggest improvements, or contribute.
 	</Card>
 </CardGrid>
