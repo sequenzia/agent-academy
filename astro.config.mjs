@@ -12,6 +12,12 @@ export default defineConfig({
 		}),
 		starlight({
 			title: 'Agent Academy',
+			favicon: '/favicon.png',
+			logo: {
+				src: './src/assets/agent-academy.png',
+				alt: 'Agent Academy logo',
+				replacesTitle: false,
+			},
 			customCss: ['./src/styles/custom.css'],
 			components: {
 				Hero: './src/components/Hero.astro',
