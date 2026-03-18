@@ -124,6 +124,18 @@ export default defineConfig({
 						{ label: 'Operational safety', slug: '08-security/operational-safety' },
 					],
 				},
+				{
+					label: '9. Spec-driven development',
+					collapsed: true,
+					items: [
+						{ slug: '09-spec-driven-development/overview' },
+						{ slug: '09-spec-driven-development/the-sdd-methodology' },
+						{ slug: '09-spec-driven-development/writing-specifications' },
+						{ slug: '09-spec-driven-development/task-decomposition' },
+						{ slug: '09-spec-driven-development/execution-and-verification' },
+						{ slug: '09-spec-driven-development/practical-exercises' },
+					],
+				},
 			],
 		}),
 	],

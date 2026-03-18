@@ -20,7 +20,7 @@ An Astro Starlight documentation site teaching developers how to use AI coding a
 
 - `src/content/docs/` — Documentation content (Markdown/MDX)
 - `src/content/docs/index.mdx` — Homepage (splash template with LinkCards)
-- `src/content/docs/01-introduction/` through `08-security/` — 8 module directories
+- `src/content/docs/01-introduction/` through `09-spec-driven-development/` — 9 module directories
 - `astro.config.mjs` — Starlight config (sidebar, social, site metadata)
 - `docs/content-style-guide.md` — Content style guide (tone, terminology, diagrams)
 - `docs/module-content-template.md` — Standardized module template
