@@ -54,6 +54,6 @@ This module is organized into four sections, each on its own page:
 ## Next steps
 
 - **Next section**: [What are subagents?](/07-subagents/what-are-subagents/) -- Understand how delegation works and when it is worth the added complexity.
-- **After this module**: [Security, guardrails, and safe automation](/08-security/overview/) -- Learn how to use AI coding agents safely, including threat models, permission models, and operational safety practices.
+- **After this module**: [Spec-Driven Development (SDD)](/08-spec-driven-development/overview/) -- Learn a structured specification-to-code pipeline that combines the skills from all previous modules into a systematic workflow for building features with agents.
 - **Related**: [Prompt engineering](/03-prompt-engineering/overview/) -- Effective delegation prompts follow the same principles as effective individual prompts.
 - **Related**: [Agent skills](/05-agent-skills/overview/) -- Skills can encode your delegation patterns as reusable workflows.

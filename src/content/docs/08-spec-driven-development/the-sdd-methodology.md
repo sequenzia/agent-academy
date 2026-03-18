@@ -211,6 +211,6 @@ The following table summarizes the tradeoffs:
 
 ## Next steps
 
-- **Next section**: [Writing specifications](/09-spec-driven-development/writing-specifications/) -- Learn how to write structured specifications with clear requirements and testable acceptance criteria.
+- **Next section**: [Writing specifications](/08-spec-driven-development/writing-specifications/) -- Learn how to write structured specifications with clear requirements and testable acceptance criteria.
 - **Related**: [Context engineering](/04-context-engineering/overview/) -- Specifications are a specialized form of context; the principles of writing effective context apply directly to writing specs.
 - **Related**: [Subagents and task delegation](/07-subagents/overview/) -- The subagent execution model in SDD Phase 4 builds on the delegation patterns from Module 7.

@@ -38,11 +38,11 @@ Security practices apply to all AI coding agents, but specific permission models
 
 This module is organized into five sections, each on its own page:
 
-1. **[Threat model for agent workflows](/08-security/threat-model/)** -- The five main categories of risk: unintended modifications, credential exposure, destructive operations, prompt injection, and supply chain risks.
-2. **[Permissions and sandboxing](/08-security/permissions-and-sandboxing/)** -- How to limit what an agent can access through permission models, file system boundaries, network controls, and containerization.
-3. **[Credential and secret management](/08-security/credential-management/)** -- Keeping secrets out of context files, using environment variables and secret managers, auditing agent output, and key rotation practices.
-4. **[Code review and validation](/08-security/code-review-practices/)** -- Treating agent output as code contributions with automated checks, git workflow integration, and effective diff review.
-5. **[Operational safety](/08-security/operational-safety/)** -- Undo/rollback strategies, rate limiting, cost controls, monitoring agent behavior, and recognizing loops and hallucinations.
+1. **[Threat model for agent workflows](/09-security/threat-model/)** -- The five main categories of risk: unintended modifications, credential exposure, destructive operations, prompt injection, and supply chain risks.
+2. **[Permissions and sandboxing](/09-security/permissions-and-sandboxing/)** -- How to limit what an agent can access through permission models, file system boundaries, network controls, and containerization.
+3. **[Credential and secret management](/09-security/credential-management/)** -- Keeping secrets out of context files, using environment variables and secret managers, auditing agent output, and key rotation practices.
+4. **[Code review and validation](/09-security/code-review-practices/)** -- Treating agent output as code contributions with automated checks, git workflow integration, and effective diff review.
+5. **[Operational safety](/09-security/operational-safety/)** -- Undo/rollback strategies, rate limiting, cost controls, monitoring agent behavior, and recognizing loops and hallucinations.
 
 ---
 
@@ -57,6 +57,6 @@ This module is organized into five sections, each on its own page:
 
 ## Next steps
 
-- **Next section**: [Threat model for agent workflows](/08-security/threat-model/) -- Understand the five main categories of risk before diving into mitigations.
+- **Next section**: [Threat model for agent workflows](/09-security/threat-model/) -- Understand the five main categories of risk before diving into mitigations.
 - **Related**: [MCP servers: security considerations](/06-mcp-servers/security-considerations/) -- MCP servers extend your agent's capabilities, which means they also extend the attack surface.
 - **Related**: [Context engineering](/04-context-engineering/overview/) -- Well-crafted context files reduce risky agent behavior by giving the agent clear guardrails for how your project works.

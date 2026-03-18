@@ -190,7 +190,7 @@ When a delegated task fails, follow this diagnostic process:
 
 ## Next steps
 
-- **Next module**: [Security, guardrails, and safe automation](/08-security/overview/) -- Learn how to use AI coding agents safely, covering threat models, permissions, credential management, and operational safety practices.
+- **Next module**: [Spec-Driven Development (SDD)](/08-spec-driven-development/overview/) -- Learn a structured specification-to-code pipeline that combines the skills from all previous modules into a systematic workflow for building features with agents.
 - **Related**: [Prompt engineering](/03-prompt-engineering/overview/) -- The same principles that make individual prompts effective also make subagent delegation prompts reliable.
 - **Related**: [Context engineering](/04-context-engineering/overview/) -- Effective subagent delegation depends on providing the right context to each subagent, which is context engineering applied at the delegation level.
 - **Related**: [Agent skills](/05-agent-skills/overview/) -- Skills can be used to standardize delegation workflows, encoding your decomposition patterns as reusable capabilities.

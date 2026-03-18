@@ -1,6 +1,6 @@
 # Module Content Template
 
-This template defines the standard structure for all 8 Agent Academy modules. Copy this file as a starting point when authoring a new module, then replace placeholder text with actual content.
+This template defines the standard structure for all 9 Agent Academy modules. Copy this file as a starting point when authoring a new module, then replace placeholder text with actual content.
 
 **Applies to**: All module pages under `src/content/docs/modules/`
 

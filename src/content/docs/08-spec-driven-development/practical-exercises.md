@@ -18,7 +18,7 @@ All three exercises are tool-agnostic. You can complete them with any AI coding 
 
 **Objective**: Write a complete SDD specification for a realistic feature, practicing requirements capture, acceptance criteria writing, and scope definition.
 
-**Prerequisites**: Familiarity with the [specification structure and depth levels](/09-spec-driven-development/writing-specifications/) covered earlier in this module. A text editor for writing the spec (no coding agent needed for this exercise).
+**Prerequisites**: Familiarity with the [specification structure and depth levels](/08-spec-driven-development/writing-specifications/) covered earlier in this module. A text editor for writing the spec (no coding agent needed for this exercise).
 
 **Steps**:
 
@@ -35,7 +35,7 @@ All three exercises are tool-agnostic. You can complete them with any AI coding 
    - Bulk update operations
    - Persistence and retrieval of preferences
 
-5. **Write testable acceptance criteria.** For each functional requirement, write at least one acceptance criterion using the category format from the [task decomposition](/09-spec-driven-development/task-decomposition/) page:
+5. **Write testable acceptance criteria.** For each functional requirement, write at least one acceptance criterion using the category format from the [task decomposition](/08-spec-driven-development/task-decomposition/) page:
    - **Functional**: Core behaviors that must work
    - **Edge cases**: Boundary conditions (e.g., what happens when a user enables "do not disturb" but already has a pending marketing notification?)
    - **Error handling**: Invalid inputs, missing data, conflicting settings
@@ -67,7 +67,7 @@ All three exercises are tool-agnostic. You can complete them with any AI coding 
 
 **Objective**: Walk through the complete SDD pipeline — specification, quality analysis, task decomposition, and execution — for a small but non-trivial feature, experiencing each phase transition firsthand.
 
-**Prerequisites**: An installed AI coding agent capable of reading and creating files. Familiarity with all four SDD phases from the earlier pages in this module ([methodology](/09-spec-driven-development/the-sdd-methodology/), [specifications](/09-spec-driven-development/writing-specifications/), [decomposition](/09-spec-driven-development/task-decomposition/), [execution](/09-spec-driven-development/execution-and-verification/)).
+**Prerequisites**: An installed AI coding agent capable of reading and creating files. Familiarity with all four SDD phases from the earlier pages in this module ([methodology](/08-spec-driven-development/the-sdd-methodology/), [specifications](/08-spec-driven-development/writing-specifications/), [decomposition](/08-spec-driven-development/task-decomposition/), [execution](/08-spec-driven-development/execution-and-verification/)).
 
 **Steps**:
 
@@ -162,9 +162,9 @@ Keep the spec focused. A link checker for markdown files is well-bounded enough 
 
 **Part B: SDD approach**
 
-5. **Write a specification.** For the same configuration validator feature, write a structured specification following the format from [writing specifications](/09-spec-driven-development/writing-specifications/). Include problem statement, functional requirements, acceptance criteria (functional, edge cases, error handling), and scope boundaries.
+5. **Write a specification.** For the same configuration validator feature, write a structured specification following the format from [writing specifications](/08-spec-driven-development/writing-specifications/). Include problem statement, functional requirements, acceptance criteria (functional, edge cases, error handling), and scope boundaries.
 
-6. **Decompose into tasks.** Break the specification into dependency-ordered tasks with acceptance criteria, following the patterns from [task decomposition](/09-spec-driven-development/task-decomposition/).
+6. **Decompose into tasks.** Break the specification into dependency-ordered tasks with acceptance criteria, following the patterns from [task decomposition](/08-spec-driven-development/task-decomposition/).
 
 7. **Execute the tasks.** Work through the tasks in dependency order, maintaining a shared context file. Verify each task against its acceptance criteria before proceeding to the next.
 
@@ -215,7 +215,8 @@ Keep the spec focused. A link checker for markdown files is well-bounded enough 
 
 ## Next steps
 
-- **Review the full module**: [Module overview](/09-spec-driven-development/overview/) — Revisit the module structure and key takeaways for a consolidated view of everything covered.
+- **Next module**: [Security, guardrails, and safe automation](/09-security/overview/) -- Learn how to use AI coding agents safely, covering threat models, permissions, credential management, and operational safety practices.
+- **Review the full module**: [Module overview](/08-spec-driven-development/overview/) -- Revisit the module structure and key takeaways for a consolidated view of everything covered.
 - **Related**: [Prompt engineering](/03-prompt-engineering/overview/) — The prompting skills from Module 3 directly apply to writing effective specifications and task descriptions in SDD.
 - **Related**: [Context engineering](/04-context-engineering/overview/) — Specifications are a specialized form of context engineering; the principles of writing good context files strengthen your spec-writing ability.
 - **Related**: [Subagents and task delegation](/07-subagents/overview/) — The execution phase of SDD builds directly on the delegation patterns covered in Module 7.

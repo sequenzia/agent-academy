@@ -354,8 +354,7 @@ Hallucinations in agent output include:
 
 ## Next steps
 
-- **Next module**: [Spec-driven development](/09-spec-driven-development/overview/) -- Learn a structured specification-to-code pipeline that combines the skills from all previous modules into a systematic workflow for building features with agents.
-- **Review the full module**: Return to the [module overview](/08-security/overview/) for links to all sections in this module.
+- **Review the full module**: Return to the [module overview](/09-security/overview/) for links to all sections in this module.
 - **Related**: [Prompt engineering](/03-prompt-engineering/overview/) -- Clearer prompts lead to fewer agent mistakes, which means fewer security incidents to recover from.
 - **Related**: [Context engineering](/04-context-engineering/overview/) -- Well-structured context files give the agent explicit security boundaries to follow.
 - **Related**: [Subagents and task delegation](/07-subagents/overview/) -- Multi-agent workflows multiply both productivity and risk; apply the practices from this module at every delegation layer.

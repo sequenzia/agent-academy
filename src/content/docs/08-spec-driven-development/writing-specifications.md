@@ -393,6 +393,6 @@ When the review identifies issues, revise the spec before moving to task decompo
 
 ## Next steps
 
-- **Next section**: [Task decomposition](/09-spec-driven-development/task-decomposition/) -- Learn how to break a specification into atomic, dependency-ordered tasks that agents can execute independently.
-- **Previous section**: [The SDD methodology](/09-spec-driven-development/the-sdd-methodology/) -- Review the four-phase SDD pipeline and its core principles.
+- **Next section**: [Task decomposition](/08-spec-driven-development/task-decomposition/) -- Learn how to break a specification into atomic, dependency-ordered tasks that agents can execute independently.
+- **Previous section**: [The SDD methodology](/08-spec-driven-development/the-sdd-methodology/) -- Review the four-phase SDD pipeline and its core principles.
 - **Related**: [Writing effective context files](/04-context-engineering/writing-effective-context/) -- The principles of writing clear, structured context for agents apply directly to writing specifications.

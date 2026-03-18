@@ -1,5 +1,5 @@
 ---
-title: Spec-driven development
+title: Spec-Driven Development (SDD)
 description: Learn how to use a structured specification-to-code pipeline with AI coding agents to build features systematically instead of relying on ad-hoc prompting.
 sidebar:
   order: 0
@@ -40,11 +40,11 @@ SDD is a methodology, not a specific tool. This module teaches the principles an
 
 This module is organized into five sections, each on its own page:
 
-1. **[The SDD methodology](/09-spec-driven-development/the-sdd-methodology/)** -- The problem with ad-hoc agent development, the four-phase SDD pipeline, core principles, and guidance on when to use SDD versus simpler approaches.
-2. **[Writing specifications](/09-spec-driven-development/writing-specifications/)** -- Anatomy of a good specification, requirements capture, writing testable acceptance criteria, spec depth levels, and quality analysis as an optional review gate.
-3. **[Task decomposition](/09-spec-driven-development/task-decomposition/)** -- Decomposition patterns for turning specs into tasks, dependency inference and ordering, task granularity, and acceptance criteria categorization.
-4. **[Execution and verification](/09-spec-driven-development/execution-and-verification/)** -- The subagent execution model, shared context through markdown files, wave-based parallelism, the agent workflow (understand, implement, verify, complete), and handling failures and retries.
-5. **[Practical exercises](/09-spec-driven-development/practical-exercises/)** -- Spec writing practice, a full pipeline walkthrough, and a comparative exercise contrasting ad-hoc prompting with SDD for the same feature.
+1. **[The SDD methodology](/08-spec-driven-development/the-sdd-methodology/)** -- The problem with ad-hoc agent development, the four-phase SDD pipeline, core principles, and guidance on when to use SDD versus simpler approaches.
+2. **[Writing specifications](/08-spec-driven-development/writing-specifications/)** -- Anatomy of a good specification, requirements capture, writing testable acceptance criteria, spec depth levels, and quality analysis as an optional review gate.
+3. **[Task decomposition](/08-spec-driven-development/task-decomposition/)** -- Decomposition patterns for turning specs into tasks, dependency inference and ordering, task granularity, and acceptance criteria categorization.
+4. **[Execution and verification](/08-spec-driven-development/execution-and-verification/)** -- The subagent execution model, shared context through markdown files, wave-based parallelism, the agent workflow (understand, implement, verify, complete), and handling failures and retries.
+5. **[Practical exercises](/08-spec-driven-development/practical-exercises/)** -- Spec writing practice, a full pipeline walkthrough, and a comparative exercise contrasting ad-hoc prompting with SDD for the same feature.
 
 ---
 
@@ -60,6 +60,6 @@ This module is organized into five sections, each on its own page:
 
 ## Next steps
 
-- **Next section**: [The SDD methodology](/09-spec-driven-development/the-sdd-methodology/) -- Understand the four-phase pipeline and the principles that make SDD effective.
+- **Next section**: [The SDD methodology](/08-spec-driven-development/the-sdd-methodology/) -- Understand the four-phase pipeline and the principles that make SDD effective.
 - **Related**: [Context engineering](/04-context-engineering/overview/) -- Specifications are a specialized form of context engineering; the principles of writing good context files apply directly to writing good specs.
 - **Related**: [Subagents and task delegation](/07-subagents/overview/) -- SDD execution builds on the delegation patterns and tradeoffs covered in Module 7.

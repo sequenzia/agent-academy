@@ -1,6 +1,6 @@
 # Agent Academy Content Style Guide
 
-This style guide defines the standards for all content across Agent Academy's 8 modules. Every module -- whether authored by a human or AI -- must follow these guidelines to ensure a consistent, high-quality learning experience.
+This style guide defines the standards for all content across Agent Academy's 9 modules. Every module -- whether authored by a human or AI -- must follow these guidelines to ensure a consistent, high-quality learning experience.
 
 **Applies to**: All module content, landing pages, and supplementary documentation within the Agent Academy site.
 

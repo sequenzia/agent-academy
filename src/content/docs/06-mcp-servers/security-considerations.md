@@ -248,5 +248,5 @@ Even well-maintained servers can have bugs or unexpected behavior:
 ## Next steps
 
 - **Next module**: [Subagents and task delegation](/07-subagents/overview/) -- Learn how agents orchestrate complex work by spawning subagents, and how the tools and capabilities you have configured (including MCP servers) are available to those subagents.
-- **Related**: [Security, guardrails, and safe automation](/08-security/overview/) -- Module 8 covers security holistically across all agent capabilities, including a deeper treatment of credential management, permission models, and operational safety.
+- **Related**: [Security, guardrails, and safe automation](/09-security/overview/) -- Module 9 covers security holistically across all agent capabilities, including a deeper treatment of credential management, permission models, and operational safety.
 - **Related**: [Context engineering](/04-context-engineering/overview/) -- Document your MCP server conventions in context files so the agent knows which servers to prefer and when to use them.

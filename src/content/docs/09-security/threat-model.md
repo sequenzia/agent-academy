@@ -49,7 +49,7 @@ Unintended modifications range from minor annoyances (extra whitespace changes m
 ### Mitigation at a glance
 
 - Keep delegated tasks small and well-scoped
-- Always review diffs before committing (see [code review practices](/08-security/code-review-practices/))
+- Always review diffs before committing (see [code review practices](/09-security/code-review-practices/))
 - Use git branches so changes are isolated and reversible
 - Set clear boundaries in your prompts: "Only modify `src/auth/login.ts`. Do not change any other files."
 
@@ -79,7 +79,7 @@ Credential exposure can lead to unauthorized access to your systems, data breach
 - Use secret managers instead of environment variables for sensitive credentials
 - Rotate any credential that may have been exposed, even if you are not sure
 
-See [credential management](/08-security/credential-management/) for detailed practices.
+See [credential management](/09-security/credential-management/) for detailed practices.
 
 ---
 
@@ -101,7 +101,7 @@ Destructive operations can cause data loss, service outages, corrupted repositor
 ### Mitigation at a glance
 
 - Never give agents direct access to production environments
-- Use sandboxed execution environments (see [permissions and sandboxing](/08-security/permissions-and-sandboxing/))
+- Use sandboxed execution environments (see [permissions and sandboxing](/09-security/permissions-and-sandboxing/))
 - Require confirmation for destructive commands when your tool supports it
 - Work on branches, not directly on main
 - Maintain regular backups of critical data and repositories
@@ -143,7 +143,7 @@ Prompt injection can cause the agent to execute unintended actions with your per
 ### Mitigation at a glance
 
 - Treat all external input as untrusted -- files from unknown sources, web content, PR descriptions from external contributors
-- Use permission models that limit what the agent can do regardless of what it is told to do (see [permissions and sandboxing](/08-security/permissions-and-sandboxing/))
+- Use permission models that limit what the agent can do regardless of what it is told to do (see [permissions and sandboxing](/09-security/permissions-and-sandboxing/))
 - Review agent actions on untrusted content more carefully than usual
 - Prefer agents that implement instruction hierarchy (system prompts override user prompts, which override content in files)
 
